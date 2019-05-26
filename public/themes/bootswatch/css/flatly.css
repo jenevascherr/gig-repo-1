@@ -123,6 +123,9 @@ sub {
 
 img {
   border: 0;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  width: 100%;
 }
 
 svg:not(:root) {
@@ -180,6 +183,7 @@ input[type="checkbox"],
 input[type="radio"] {
   padding: 0;
   box-sizing: border-box;
+  display: none;
 }
 
 input[type="search"] {
@@ -988,6 +992,8 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  text-align: center;
+  margin-botton: 10px;
 }
 
 .col-xs-1,
@@ -1394,6 +1400,11 @@ pre code {
   .col-md-12 {
     float: left;
   }
+  
+  .col-lg-6 {
+    width: 50%;
+  }
+  
   .col-md-12 {
     width: 100%;
   }
